@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 1</h3>
+        <p>Saber si eres bello.</p>
+        <button id="ej_1" >¿bello?</button>
+        <p id="respuesta1"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 2</h3>
+        <p>Saber si el numero es divisible entre 2</p>
+        <button id="ej_2" >confirmar</button>
+        <p id="respuesta2"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 3</h3>
+        <p>Saber si el numero es par o no</p>
+        <button id="ej_3">Paridad</button>
+        <p id="respuesta3"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 4</h3>
+        <p>Saber si ganaste un premio espichando el boton</p>
+        <button id="ej_4">boton del cliente</button>
+        <p id="respuesta4"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 5</h3>
+        <p>Numero mas grande</p>
+        <button id="ej_5">Calcular</button>
+        <p id="respuesta5"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 6</h3>
+        <p>Los 4 numeros</p>
+        <button id="ej_6">Mensaje</button>
+        <p id="respuesta6"></p>
+    </section>
+    
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 7</h3>
+        <p>Mensaje del día ingresado</p>
+        <button id="ej_7">Mensaje</button>
+        <p id="respuesta7"></p>
+    </section>
+
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 8</h3>
+        <p>Calificación</p>
+        <button id="ej_8">Mensaje</button>
+        <p id="respuesta8"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 9</h3>
+        <p>Compra de helados</p>
+        <p id="recursos">Tienes 200$</p> 
+        <div id="toppings">
+            <button id="nothing" onclick="evaluarNada()">sin topping 5$ </button>
+            <button id="oreo" class="toppings" onclick="evaluarOreo()"> oreo 10$</button>
+            <button id="kitkat"class="toppings" onclick="evaluarKitkat()">kit kat 15$</button>
+            <button id="brownie" class="toppings" onclick="evaluarBrownie()">Brownie 20$</button>
+        </div>
+        <p id="respuesta9"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 10</h3>
+        <p>Elige alugno de los programas</p>
+        <p>Educación</p>
+        <div id="contenedor_cursos">
+            <button id="Facebook"class="cursos" onclick="chooseFacebook()">Facebook</button>
+            <button id="Google"  class="cursos" onclick="chooseGoogle()">Google</button>
+            <button id="Jesua"   class="cursos" onclick="chooseJesua()">Jesua</button>
+        </div>
+        <p id="confirmacion_beca"></p>
+        <p id="info_curso"></p>
+
+        <p id="respuesta10"></p>
+    </section>
+    <section class="contenedor_preguntas">
+        <h3>Ejercicio 11</h3>
+        <p>Distancia recorrida</p>
+        <button id="ej_11">Calcular precio total</button>
+        <p id="respuesta11"></p>
+    </section>   
+    <script src="/code.js"> </script>
+</body>
+</html>
